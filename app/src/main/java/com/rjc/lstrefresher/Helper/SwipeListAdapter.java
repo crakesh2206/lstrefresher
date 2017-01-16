@@ -29,6 +29,7 @@ public class SwipeListAdapter extends BaseAdapter {
 
     public SwipeListAdapter(Activity activity, List<Movie> movieList) {
         this.activity = activity;
+        String rjfake;
         this.movieList = movieList;
         bgColors = activity.getApplicationContext().getResources().getStringArray(R.array.movie_serial_bg);
     }
